@@ -27,18 +27,6 @@ Before you begin, make sure you have the following installed on your machine:
 
 2. **Open terminal**
 
-   In Visual Studio Code, you can open the integrated terminal using shortcut keys. Here are the default shortcuts for various operating systems:
-
-   **Windows/Linux:**
-
-   - Open Terminal: ``Ctrl + \`\` ``
-   - Toggle Integrated Terminal: ``Ctrl + \` ``
-
-   **macOS:**
-
-   - Open Terminal: ``Cmd + \`\` ``
-   - Toggle Integrated Terminal: ``Cmd + \` ``
-
 3. **Install dependencies**
 
    In the terminal within Visual Studio Code, run:
@@ -87,4 +75,4 @@ This command removes an existing build folder, optimizes and minifies codes for 
 ## Credits
 
 - **Images**: The images used in this project are from [Bowling Tong](https://www.behance.net/bowlingtongt).
-- **Logo**: The logo was created by [Mr. D](https://textfonts.net/author/admin#gsc.tab=0). Please do not use it without permission.
+- **Logo**: The logo was created by [Mr. D](https://textfonts.net/author/admin#gsc.tab=0).
