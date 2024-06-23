@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  html {
+    @apply scroll-smooth;
+  }
+
+  html,
+  body,
+  #root {
+    @apply relative block h-full w-full overflow-x-hidden;
+  }
+
+  picture {
+    @apply overflow-hidden;
+  }
+
+  picture img {
+    @apply h-auto w-full object-cover object-center;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply relative mx-auto block w-full max-w-[1140px] p-5 sm:px-10;
+  }
+
+  .wrapper-y-sm {
+    @apply wrapper py-10;
+  }
+
+  .wrapper-y-md {
+    @apply wrapper py-12;
+  }
+
+  .wrapper-y-lg {
+    @apply wrapper py-20;
+  }
+}
