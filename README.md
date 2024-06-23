@@ -2,6 +2,16 @@
 
 This project is a sample landing page built using React and Webpack, designed specifically to run in a PHP environment. When you export the project using `npm run build`, it automatically translates the output HTML to a PHP-compatible format. If any PHP code needs to be included, it will be inserted at the beginning of the `index.php` file during the build process, ensuring seamless integration with PHP servers.
 
+## Features
+
+- **React and Webpack**: Utilizes modern front-end technologies for building the landing page.
+- **PHP Compatibility**: Automatically converts the output to PHP-compatible format.
+- **PHP Code Injection**: Inserts necessary PHP code at the beginning of the `index.php` file during the build process.
+- **Development and Production Builds**: Supports easy development with `npm start` and optimized production builds with `npm run build`.
+- **Mobile Responsive**: Ensures a seamless experience across different devices.
+- **Autoplay Sliders**: Includes autoplay sliders using Swiper for a dynamic presentation.
+- **"Go to Top" Button**: Provides a convenient button to quickly navigate back to the top of the page.
+
 ## Installation
 
 ### Prerequisites
