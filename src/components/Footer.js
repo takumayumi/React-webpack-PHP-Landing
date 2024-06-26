@@ -41,7 +41,7 @@ const Links = ({ title, links, children, className }) => {
 
 const Footer = () => {
   return (
-    <div className="bg-yellow blow w-full">
+    <div className="blow w-full bg-white">
       <footer className="wrapper-y-lg text-dark-red md:flex md:flex-row md:flex-wrap [&_>_*:not(:last-child)]:mb-7">
         <Links title="About Lorem Ipsum">
           <p>
@@ -74,7 +74,7 @@ const Footer = () => {
         />
         <Links title="Contact Info">
           <div className="flex w-full flex-row items-center pl-6 text-left">
-            <span className="border-dark-red mr-4 flex h-12 w-12 flex-none items-center justify-center rounded-full border-2 pb-1 text-2xl font-semibold">
+            <span className="mr-4 flex h-12 w-12 flex-none items-center justify-center rounded-full border-2 border-dark-red pb-1 text-2xl font-semibold">
               @
             </span>
             <p className="flex flex-col">
@@ -87,7 +87,7 @@ const Footer = () => {
         </Links>
         <div className="flex w-full flex-row items-center justify-between py-10">
           <p>Copyright © 2024 Lorem Ipsum</p>
-          <div className="[&_svg]:fill-dark-red flex flex-row items-center [&_svg]:block [&_svg]:flex [&_svg]:h-auto [&_svg]:w-4 [&_svg]:items-center">
+          <div className="flex flex-row items-center [&_svg]:block [&_svg]:flex [&_svg]:h-auto [&_svg]:w-4 [&_svg]:items-center [&_svg]:fill-dark-red">
             <a className="mr-4" href="#" title="Twitter link" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 {/* Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. */}
@@ -113,7 +113,7 @@ const Footer = () => {
           Donec venenatis nunc eu vestibulum malesuada. Suspendisse lacinia
           aliquet vestibulum. Mauris vel odio ipsum.{" "}
           <a
-            className="hover:text-dark-blue text-blue transition-colors duration-200 ease-in"
+            className="transition-colors duration-200 ease-in hover:text-dark-blue"
             href="#"
           >
             RMauris vel odio ipsum
