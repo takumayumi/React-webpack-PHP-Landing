@@ -18,16 +18,12 @@ This project is a sample landing page built using React and Webpack, designed sp
 - **Swiper**: JavaScript library for sliders and carousels.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 
-## Installation
-
-### Prerequisites
+## Getting Started
 
 Before you begin, make sure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/) (includes npm)
 - [Visual Studio Code](https://code.visualstudio.com/)
-
-### Getting Started
 
 1. **Open the Project in Visual Studio Code**
 
@@ -35,19 +31,11 @@ Before you begin, make sure you have the following installed on your machine:
 
 3. **Install dependencies**
 
-   In the terminal within Visual Studio Code, run:
-
    ```
    npm install
    ```
 
-   This will create a 'node_modules' folder, which may have a substantial file size. If you are manually copying the project, ensure to delete the 'node_modules' folder first, preferably along with the 'package-lock.json' file.
-
-   _Please note that an internet connection is required to install npm dependencies._
-
-## Usage
-
-**_Make sure to execute commands from the root of your project directory._**
+Make sure to execute commands from the root of your project directory.
 
 ### Development Mode
 
@@ -75,8 +63,6 @@ npm run build
 ```
 
 This command removes an existing build folder, optimizes and minifies codes for better performance, and transform built html to php with the php codes from public/index.php. Please wait for a few minutes, especially if there are many large-sized images; it may take longer. It's best to have an optimized image ready.
-
-> Have fun coding!
 
 ## Credits
 
