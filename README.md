@@ -5,7 +5,6 @@ This project is a sample landing page built using React and webpack, designed sp
 ## Features
 
 - **Autoplay Sliders**: Includes autoplay sliders using Swiper for a dynamic presentation.
-- **Development and Production Builds**: Supports easy development with `npm start` and optimized production builds with npm run build.
 - **Go to Top Button**: Provides a convenient button to quickly navigate back to the top of the page.
 - **PHP Compatibility**: Automatically converts the output to PHP-compatible format.
 - **PHP Code Injection**: Inserts necessary PHP code at the beginning of the `index.php` file during the build process.
