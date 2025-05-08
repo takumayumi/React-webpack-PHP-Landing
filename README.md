@@ -1,6 +1,6 @@
-# React + webpack PHP Landing
+# React webpack PHP Landing
 
-This project is a sample landing page built using React and Webpack, designed specifically to run in a PHP environment. When you export the project using `npm run build`, it automatically translates the output HTML to a PHP-compatible format. If any PHP code needs to be included, it will be inserted at the beginning of the `index.php` file during the build process, ensuring seamless integration with PHP servers.
+This project is a sample landing page built using React and webpack, designed specifically to run in a PHP environment. When you export the project using `npm run build`, it automatically translates the output HTML to a PHP-compatible format. If any PHP code needs to be included, it will be inserted at the beginning of the `index.php` file during the build process, ensuring seamless integration with PHP servers.
 
 ## Features
 
@@ -14,7 +14,7 @@ This project is a sample landing page built using React and Webpack, designed sp
 ## Technologies Used
 
 - **React**: JavaScript library for building user interfaces.
-- **Webpack**: Module bundler for JavaScript applications.
+- **webpack**: Module bundler for JavaScript applications.
 - **Swiper**: JavaScript library for sliders and carousels.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 
