@@ -24,7 +24,7 @@ After running the build command, the existing build folder is removed, the code 
 - **React**: JavaScript library for building user interfaces.
 - **webpack**: Module bundler for JavaScript applications.
 - **Swiper**: JavaScript library for sliders and carousels.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Tailwind CSS 3**: Utility-first CSS framework for styling.
 
 ## Credits
 
