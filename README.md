@@ -1,36 +1,42 @@
 # React webpack PHP Landing
 
-This project is a sample landing page built using React and webpack, designed specifically to run in a PHP environment. When you export the project using `npm run build`, it automatically translates the output HTML to a PHP-compatible format. If any PHP code needs to be included, it will be inserted at the beginning of the `index.php` file during the build process, ensuring seamless integration with PHP servers.
+**React webpack PHP Landing** is a sample landing page designed to run smoothly in a **PHP environment**, such as WordPress. When you run the build command, the app automatically converts the output HTML into a PHP-compatible format by merging the final HTML with your custom PHP code from `public/index.php`.
 
-Before building the project:
+Make sure to follow these steps before running the build:
 
-1. Add an `index.php` file in public folder containing the necessary code for it to run in WordPress that runs PHP.
-2. Optimize images.
-3. Ensure link tags include preload.
-4. Ensure script tags have `defer`/`async` attributes.
+1. Add your custom PHP code to the `public/index.php` file. This could include WordPress-specific PHP or other server-side code.
+2. Optimize your images for faster load times and smaller build size.
+3. Add `preload` attributes to `<link>` tags for better performance.
+4. Use `defer` or `async` in your `<script>` tags to improve loading speed.
 
-After running the build command, the existing build folder is removed, the code is optimized and minified, and the final HTML is converted to PHP using the code from `public/index.php`. If the project includes large images, the build may take a few minutes. It's best to use optimized images.
+> **Note**: Large images may slow down the build process. It's best to use optimized or compressed image assets.
 
 ## Features
 
-- **Autoplay Sliders**: Includes autoplay sliders using Swiper for a dynamic presentation.
-- **Go to Top Button**: Provides a convenient button to quickly navigate back to the top of the page.
-- **PHP Compatibility**: Automatically converts the output to PHP-compatible format.
-- **PHP Code Injection**: Inserts necessary PHP code at the beginning of the `index.php` file during the build process.
-- **Mobile Responsive**: Ensures a seamless experience across different devices.
+- **Autoplay Sliders**: Uses Swiper.js for animated, auto-playing content sliders.
+- **Go to Top Button**: A button that scrolls back to the top of the page easily.
+- **PHP Integration**: The output is converted to `index.php`, and your original PHP code is included automatically.
+- **Mobile Responsive**: Layout adjusts to fit phones, tablets, and desktops.
+- **Build Optimization**: The output is minified and cleaned, with unused files removed.
 
 ## Technologies Used
 
-- **React**: JavaScript library for building user interfaces.
-- **webpack**: Module bundler for JavaScript applications.
-- **Swiper**: JavaScript library for sliders and carousels.
-- **Tailwind CSS 3**: Utility-first CSS framework for styling.
+- **React**: For building the user interface.
+- **webpack**: For bundling JavaScript and optimizing the build.
+- **Swiper**: For sliders and carousel features.
+- **Tailwind CSS 3**: For utility-based responsive styling.
 
 ## Credits
 
-- **Images**: The images used in this project are from [Bowling Tong](https://www.behance.net/bowlingtongt).
-- **Logo**: The logo was created by [Mr. D](https://textfonts.net/author/admin#gsc.tab=0).
+- **Images**: Courtesy of [Bowling Tong](https://www.behance.net/bowlingtongt)
+- **Logo**: Designed by [Mr. D](https://textfonts.net/author/admin#gsc.tab=0)
 
-## Learning
+> **Note**: Please do not reuse the included images or logo, as they are personal or licensed assets.
 
-You are welcome to use this project to learn and build your own ideas. Just kindly refrain from using any of the assets, as they are personal or licensed assets.
+## Project Status
+
+This project is complete and no longer actively maintained. It is available for reference, experimentation, or educational purposes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share the code for personal or commercial projects, but attribution is appreciated.
