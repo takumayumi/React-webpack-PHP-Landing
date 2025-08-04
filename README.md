@@ -22,16 +22,14 @@ Make sure to follow these steps before running the build:
 ## Technologies Used
 
 - **React**: For building the user interface.
-- **webpack**: For bundling JavaScript and optimizing the build.
 - **Swiper**: For sliders and carousel features.
 - **Tailwind CSS 3**: For utility-based responsive styling.
+- **webpack**: For bundling JavaScript and optimizing the build.
 
 ## Credits
 
 - **Images**: Courtesy of [Bowling Tong](https://www.behance.net/bowlingtongt)
 - **Logo**: Designed by [Mr. D](https://textfonts.net/author/admin#gsc.tab=0)
-
-> **Note**: Please do not reuse the included images or logo, as they are personal or licensed assets.
 
 ## Project Status
 
@@ -40,3 +38,5 @@ This project is complete and no longer actively maintained. It is available for 
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share the code for personal or commercial projects, but attribution is appreciated.
+
+> **Note:** Please do not reuse the included images or logo, as they are personal or licensed assets and not covered by the MIT license.
