@@ -1,3 +1,11 @@
+/**
+ * node.build.js
+ * Merges the contents of public/index.php and build/index.html,
+ * then writes the result to build/index.php and removes the original HTML file.
+ *
+ * Author: Yumi Takuma
+ */
+
 const fs = require("fs");
 const path = require("path");
 

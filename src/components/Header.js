@@ -1,3 +1,10 @@
+/**
+ * Header.js
+ * Displays the site header with a logo using a lazily loaded Image component.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React, { lazy } from "react";
 import logoPNG from "../assets/images/logo.png";
 import logoWebP from "../assets/images/logo.png?as=webp";

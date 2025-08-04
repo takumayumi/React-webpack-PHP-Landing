@@ -1,3 +1,10 @@
+/**
+ * Image.js
+ * Reusable image component that supports lazy loading and WebP format using the <picture> element.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React from "react";
 
 const Image = ({ className, srcSet, src, alt, width, height }) => {

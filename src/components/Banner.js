@@ -1,3 +1,11 @@
+/**
+ * Banner.js
+ * Renders a full-width banner with a background image, text content, and a "Back to Top" button.
+ * The button appears when the banner scrolls out of view, using the Intersection Observer API.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React, { useEffect, useRef, useState, lazy } from "react";
 import classNames from "classnames";
 import bgPNG from "../assets/images/bg.jpg";
@@ -11,7 +19,7 @@ const BackToTop = ({ onClick, showButton }) => {
     <a
       href="#main-container"
       className={classNames(
-        " bg-dark-blue fill-light-yellow fixed bottom-7 right-10 z-10 flex h-9 w-9 items-center justify-center rounded-full p-3 transition-all duration-300 ease-in hover:bg-blue",
+        " fixed bottom-7 right-10 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-dark-blue fill-light-yellow p-3 transition-all duration-300 ease-in hover:bg-blue",
         showButton
           ? "translate-y-0 opacity-100"
           : "translate-y-[200%] opacity-0",
@@ -77,7 +85,7 @@ const Banner = () => {
           height="637"
           className="absolute left-0 top-0 h-full w-full opacity-20 [&_img]:h-full [&_img]:w-full"
         />
-        <span className="bg-dark-red/10 absolute h-full w-full" />
+        <span className="absolute h-full w-full bg-dark-red/10" />
         <div className="wrapper-y-lg relative z-20 flex w-full flex-col items-center text-center lg:items-start lg:text-left [&_>_*:not(:first-child):not(:last-child)]:mb-6">
           <h5 className="text-xl font-bold">
             Cras accumsan efficitur dignissim

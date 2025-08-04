@@ -1,3 +1,12 @@
+/**
+ * webpack.config.js
+ * Webpack production configuration for building a React project.
+ * Includes JavaScript and CSS processing, image optimization, WebP generation,
+ * SVG cleanup, code splitting, and output manifest generation.
+ *
+ * Author: Yumi Takuma
+ */
+
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");

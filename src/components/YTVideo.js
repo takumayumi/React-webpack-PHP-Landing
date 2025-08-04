@@ -1,3 +1,10 @@
+/**
+ * YTVideo.js
+ * Lazily loads a YouTube video iframe when it enters the viewport using IntersectionObserver.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React, { useEffect, useRef, useState } from "react";
 
 const YTVideo = ({ title, ytID }) => {
@@ -18,6 +25,7 @@ const YTVideo = ({ title, ytID }) => {
           threshold: 0.1,
         };
 
+        // Observer checks if the video is visible in the viewport
         const observer = new IntersectionObserver((entries, observer) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting && supported) {
@@ -36,6 +44,7 @@ const YTVideo = ({ title, ytID }) => {
     }
   }, [supported, videoConRef, videoRef]);
 
+  // Creates and appends the iframe to load the YouTube video
   const loadYouTubeVideo = (video) => {
     if (video) {
       const iframe = document.createElement("iframe");
@@ -64,6 +73,7 @@ const YTVideo = ({ title, ytID }) => {
   };
 
   useEffect(() => {
+    // Check if important browser features are supported
     const isBFCacheSupported = "onpageshow" in window;
     const isIntersectionObserverSupported = "IntersectionObserver" in window;
     const isJSEnabled = true;
@@ -74,7 +84,7 @@ const YTVideo = ({ title, ytID }) => {
   }, []);
 
   return (
-    <div className="bg-red relative block w-full">
+    <div className="relative block w-full bg-red">
       <div className="wrapper-y-sm" ref={videoConRef}>
         {supported ? (
           <div ref={videoRef} />

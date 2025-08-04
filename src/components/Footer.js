@@ -1,3 +1,10 @@
+/**
+ * Footer.js
+ * Renders the website footer with multiple sections including useful links, contact info, and social media icons.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React from "react";
 import classNames from "classnames";
 

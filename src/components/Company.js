@@ -1,3 +1,10 @@
+/**
+ * Company.js
+ * Displays a Swiper carousel with company-related images.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React, { lazy } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -35,7 +42,7 @@ const CompanyItem = ({ srcSet, src, alt }) => (
 
 const Company = () => {
   return (
-    <div className="bg-dark-red relative block w-full">
+    <div className="relative block w-full bg-dark-red">
       <div className="wrapper-y-md pb-6 text-4xl">
         <Swiper
           breakpoints={{

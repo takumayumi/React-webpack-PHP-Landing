@@ -1,3 +1,10 @@
+/**
+ * tailwind.config.js
+ * Tailwind CSS configuration with custom color palette and transition duration.
+ *
+ * Author: Yumi Takuma
+ */
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],

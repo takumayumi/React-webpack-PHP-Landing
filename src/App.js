@@ -1,3 +1,11 @@
+/**
+ * App.js
+ * Main application component.
+ * Renders the layout with lazy-loaded sections and fallback loading animation.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React, { Suspense, lazy } from "react";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
@@ -8,6 +16,7 @@ const Features = lazy(() => import("./components/Features"));
 const Footer = lazy(() => import("./components/Footer"));
 const YTVideo = lazy(() => import("./components/YTVideo"));
 
+// Loading fallback component shown while lazy-loaded components are loading
 const Loading = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">

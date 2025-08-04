@@ -1,3 +1,10 @@
+/**
+ * Carousel.js
+ * Responsive image carousel using Swiper and lazy-loaded images.
+ *
+ * Author: Yumi Takuma
+ */
+
 import React, { lazy } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -28,7 +35,7 @@ const CarouselItem = ({ srcSet, src, alt }) => (
 
 const Carousel = () => {
   return (
-    <div className="bg-red relative block w-full">
+    <div className="relative block w-full bg-red">
       <div className="wrapper-y-sm">
         <Swiper
           className="[&_.swiper-slide]:h-auto [&_.swiper-wrapper]:h-auto"
