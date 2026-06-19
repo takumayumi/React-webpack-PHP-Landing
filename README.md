@@ -34,9 +34,3 @@ Make sure to follow these steps before running the build:
 ## Project Status
 
 This project is complete and no longer actively maintained. It is available for reference, experimentation, or educational purposes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share the code for personal or commercial projects, but attribution is appreciated.
-
-> **Note:** Please do not reuse the included images or logo, as they are personal or licensed assets and not covered by the MIT license.
