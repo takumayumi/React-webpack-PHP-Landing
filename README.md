@@ -4,7 +4,7 @@
 
 Make sure to follow these steps before running the build:
 
-1. Add your custom PHP code to the `public/index.php` file. This could include WordPress-specific PHP or other server-side code.
+1. Add your custom PHP code to the `public/index.php` file.
 2. Optimize your images for faster load times and smaller build size.
 3. Add `preload` attributes to `<link>` tags for better performance.
 4. Use `defer` or `async` in your `<script>` tags to improve loading speed.
